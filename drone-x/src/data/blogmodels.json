@@ -1,0 +1,173 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "How Voice-First AI is Transforming Elderly Health Care",
+      "slug": "voice-first-ai-elderly-care",
+      "excerpt": "Explore how natural, conversational interfaces are simplifying chronic condition management for elderly patients.",
+      "thumbnail": "https://images.unsplash.com/photo-1587556930799-8dca6fad6d41?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Dr. Alex Rivera",
+      "tags": ["Voice AI", "Elderly Care", "UX Design"],
+      "publishedAt": "2025-08-01",
+      "readTime": "6 min",
+      "isFeatured": true,
+      "content": [
+        "Voice-first technology is redefining how elderly patients engage with their health. With intuitive, conversational interfaces, patients no longer need to rely on complex menus or apps to manage their daily routines.",
+        "In this article, we look at how conversational agents integrated with Apple Health and real-time vitals are reshaping chronic care. From medication reminders to early alerting based on biometrics, voice-first design is the future."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1609177337231-43adb0b2c24d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1663661745737-87c8741e9191?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1434494745656-1aea7daa8f6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Privacy-First Design: What It Really Means in Health Apps",
+      "slug": "privacy-first-health-apps",
+      "excerpt": "Data privacy is more than compliance — it's a commitment. Here’s how we ensure user trust with on-device AI and zero tracking.",
+      "thumbnail": "https://images.unsplash.com/photo-1612277795163-49a1a64e8f34?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Maria Chen",
+      "tags": ["Privacy", "AI Ethics", "HIPAA"],
+      "publishedAt": "2025-08-03",
+      "readTime": "5 min",
+      "isFeatured": false,
+      "content": [
+        "Privacy in health apps should start at the design level. We believe in data minimization, transparency, and edge computing.",
+        "Learn how we build on-device AI that doesn't rely on cloud infrastructure, preventing unnecessary data transfer and ensuring HIPAA-grade compliance from day one."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1609177337231-43adb0b2c24d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1663661745737-87c8741e9191?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1434494745656-1aea7daa8f6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Designing for Seniors: Simplicity, Accessibility, and Dignity",
+      "slug": "designing-for-seniors",
+      "excerpt": "Learn how our team builds interfaces that feel intuitive and empowering for aging users managing their health.",
+      "thumbnail": "https://images.unsplash.com/photo-1612277795054-a7a98257dd6d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "James Patel",
+      "tags": ["UX", "Accessibility", "Digital Health"],
+      "publishedAt": "2025-08-05",
+      "readTime": "7 min",
+      "isFeatured": true,
+      "content": [
+        "Older adults often face unique barriers when using technology. This post explores how we use larger tap targets, voice-first design, and minimalistic layouts to make digital health intuitive and empowering.",
+        "By designing with empathy and testing with real users, we’ve created a system that respects dignity while promoting independence."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1609177337231-43adb0b2c24d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1663661745737-87c8741e9191?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1434494745656-1aea7daa8f6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Integrating Apple Health Data into Personalized Care",
+      "slug": "apple-health-integration",
+      "excerpt": "Behind the scenes of how we turn raw Apple Health data into actionable daily insights for chronic care patients.",
+      "thumbnail": "https://images.unsplash.com/photo-1576765974102-b756026ecee3?q=80&w=2078&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Sara Mendez",
+      "tags": ["Apple Health", "Data Integration", "Patient Insights"],
+      "publishedAt": "2025-08-07",
+      "readTime": "6 min",
+      "isFeatured": true,
+      "content": [
+        "Apple Health offers a powerful repository of user-permitted biometric data. Our system ingests this data securely, processes it locally, and generates personalized insights.",
+        "Whether it’s heart rate variability or step count trends, we use contextual analytics to deliver actionable care nudges directly to the patient."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Building AI Assistants That Patients Actually Trust",
+      "slug": "trusted-health-ai",
+      "excerpt": "AI in health care must be transparent and reliable. Here's how we design conversational assistants people feel safe using.",
+      "thumbnail": "https://images.unsplash.com/photo-1649767837046-502fc4aabbaa?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Derek Wong",
+      "tags": ["AI", "Trust", "Digital Therapeutics"],
+      "publishedAt": "2025-08-10",
+      "readTime": "8 min",
+      "isFeatured": true,
+      "content": [
+        "Trust is essential in any AI-powered health tool. Our assistant is trained not just to answer but to explain, clarify, and even say 'I don’t know' when needed.",
+        "We build for transparency, reinforcing trust through calm tones, clear logic, and giving users control over every interaction."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1609177337231-43adb0b2c24d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1663661745737-87c8741e9191?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1434494745656-1aea7daa8f6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Why On-Device Intelligence Is the Future of Health Apps",
+      "slug": "on-device-health-ai",
+      "excerpt": "Cloud AI can be powerful — but on-device intelligence is faster, safer, and more personal. Here’s why we bet on local models.",
+      "thumbnail": "https://images.unsplash.com/photo-1695185381786-548b877edfa6?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Natalie Brown",
+      "tags": ["Edge AI", "Mobile Health", "Security"],
+      "publishedAt": "2025-08-12",
+      "readTime": "7 min",
+      "isFeatured": false,
+      "content": [
+        "On-device AI means real-time responsiveness, better privacy, and no reliance on internet connectivity. It’s a game-changer for healthcare apps, especially for seniors in low-connectivity environments.",
+        "We break down our architecture that leverages CoreML and neural engines to run models locally, securely, and smoothly."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Role of AI in Predicting Chronic Condition Flare-Ups",
+      "slug": "ai-predicting-chronic-flares",
+      "excerpt": "Proactive care is the future. Discover how our models help detect early signs of health decline using passive data inputs.",
+      "thumbnail": "https://images.unsplash.com/photo-1683727027478-5df5f0c89d27?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Dr. Aria Gupta",
+      "tags": ["Chronic Care", "Predictive AI", "Health Monitoring"],
+      "publishedAt": "2025-08-14",
+      "readTime": "6 min",
+      "isFeatured": false,
+      "content": [
+        "Chronic conditions like COPD, diabetes, and hypertension often follow predictable deterioration patterns. With the right data inputs—such as sleep, heart rate, and even voice tone—our platform can recognize early warning signs.",
+        "Our models run entirely on-device, giving patients real-time nudges without needing internet or cloud sync, protecting their data while improving outcomes. We’ll cover real-world examples and the machine learning architecture powering these insights."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Why We Chose Voice Over Touch for Senior Health Tech",
+      "slug": "voice-over-touch-senior-tech",
+      "excerpt": "From tremors to cognitive fatigue, seniors face unique barriers to using touch interfaces. Here's why voice makes more sense.",
+      "thumbnail": "https://images.unsplash.com/photo-1688565630796-feee4fe51e3c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Michelle Zhang",
+      "tags": ["Voice UX", "Senior Health", "Accessibility"],
+      "publishedAt": "2025-08-14",
+      "readTime": "5 min",
+      "isFeatured": true,
+      "content": [
+        "Touchscreens are everywhere—but they’re not built for everyone. Seniors often struggle with shaky hands, dry skin, small text, or cognitive overload. Voice-first interaction removes that barrier entirely.",
+        "We detail our user research and why voice, not touch, is the interface of the future for digital health. It’s not just more accessible—it’s also more human."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "How We Visualize Health Trends Using Apple Health Data",
+      "slug": "visualizing-health-trends",
+      "excerpt": "Data is only valuable when patients can understand it. We explore how visuals, charts, and timelines change chronic care.",
+      "thumbnail": "https://images.unsplash.com/photo-1746014601174-a3f2691820f7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Dr. Sanjay Rao",
+      "tags": ["Data Visualization", "Health Tracking", "UX"],
+      "publishedAt": "2025-08-15",
+      "readTime": "6 min",
+      "isFeatured": true,
+      "content": [
+        "Health metrics can be confusing—heart rate, sleep, medication adherence. Our visual design approach simplifies this by presenting patients with trendlines and highlights instead of numbers.",
+        "In this blog, we walk through our visual system powered by Apple Health, and show how weekly summaries boost understanding."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1609177337231-43adb0b2c24d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1663661745737-87c8741e9191?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1434494745656-1aea7daa8f6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ]
+    }
+  ]
+}
