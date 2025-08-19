@@ -7,7 +7,7 @@ function UpcomingWebinars() {
     {
       title: "🧠 Smarter by Design",
       description:
-        "Our AI lives on-device, learns from your habits, and speaks your language — literally. No internet, no delay, no nonsense.",
+        "Our AI lives on-device, learns from your habits, and speaks your language — literally. no delay, no nonsense.",
       slug: "getting-started-with-drone-mapping",
       isFeatured: true,
     },
@@ -42,16 +42,17 @@ function UpcomingWebinars() {
   ];
 
   return (
-    <div className="p-12 bg-gradient-to-br from-gray-800 to-black">
-      <div className="maxw-7xl mx-auto px-4 sm:px-6">
+    <div className="p-12 bg-gradient-to-br from-rose-100 via-white to-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
-          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-rose-600 font-semibold tracking-wide uppercase">
             Why We're Different
           </h2>
-          <p className="mt-2 text-3xl leading- font-extrabold tracking-tight text-white sm:text-4xl">
+          <p className="mt-2 text-3xl leading-tight font-extrabold tracking-tight text-slate-900 sm:text-4xl">
             Our Strengths
           </p>
         </div>
+
         <div className="mt-10">
           <HoverEffect
             items={upcomingWebinars.map((webinars) => ({

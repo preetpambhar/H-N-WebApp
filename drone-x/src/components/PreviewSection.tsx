@@ -9,12 +9,17 @@ export function AppleCardsCarouselDemo() {
   ));
 
   return (
-    <div className="w-full h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-        How it works in few steps
-      </h2>
-      <Carousel items={cards} />
-    </div>
+    <section className="w-full h-full bg-white">
+      <div className="mx-auto max-w-7xl py-6 md:py-8">
+        <h2 className="px-2 md:px-0 text-2xl md:text-5xl font-bold text-slate-900">
+          How it works in few steps
+        </h2>
+
+        <div className="mt-0">
+          <Carousel items={cards} />
+        </div>
+      </div>
+    </section>
   );
 }
 
