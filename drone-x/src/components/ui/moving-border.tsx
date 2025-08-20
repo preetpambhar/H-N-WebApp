@@ -1,5 +1,5 @@
 "use client";
-import React, { JSX } from "react";
+import React, { JSX, useRef } from "react";
 import {
   motion,
   useAnimationFrame,
@@ -7,7 +7,6 @@ import {
   useMotionValue,
   useTransform,
 } from "motion/react";
-import { useRef } from "react";
 import { cn } from "@/lib/utils";
 
 export function Button({
@@ -32,36 +31,41 @@ export function Button({
   return (
     <Component
       className={cn(
-        "relative h-12 w-40 overflow-hidden bg-transparent p-[1px] text-lg",
+        // widen the “border gap” from 1px → 2px so the runner is visible
+        "relative h-12 w-40 overflow-hidden bg-transparent p-[2px] text-lg",
         containerClassName
       )}
-      style={{
-        borderRadius: borderRadius,
-      }}
+      style={{ borderRadius }}
       {...otherProps}
     >
+      {/* runner layer */}
       <div
-        className="absolute inset-0"
+        className="pointer-events-none absolute inset-0"
         style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
       >
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
-              "h-20 w-20 bg-[radial-gradient(#0ea5e9_40%,transparent_60%)] opacity-[0.8]",
+              // bigger, higher-opacity glow + blend mode that works on light bg
+              // tailwind v3: theme() is supported in arbitrary values
+              "h-24 w-24 opacity-100 mix-blend-multiply dark:mix-blend-screen",
+              "bg-[radial-gradient(circle,theme(colors.rose.500)_40%,transparent_62%)]",
               borderClassName
             )}
           />
         </MovingBorder>
       </div>
 
+      {/* inner panel (defaults for light, overridden by your className) */}
       <div
         className={cn(
-          "relative flex h-full w-full items-center justify-center border border-slate-800 bg-slate-900/[0.8] text-sm text-white antialiased backdrop-blur-xl",
+          "relative flex h-full w-full items-center justify-center",
+          "border border-neutral-300 bg-white text-black",
+          "dark:border-slate-800 dark:bg-slate-900 dark:text-white",
+          "text-sm antialiased backdrop-blur-xl",
           className
         )}
-        style={{
-          borderRadius: `calc(${borderRadius} * 0.96)`,
-        }}
+        style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
       >
         {children}
       </div>
@@ -86,21 +90,19 @@ export const MovingBorder = ({
 
   useAnimationFrame((time) => {
     const length = pathRef.current?.getTotalLength();
-    if (length) {
-      const pxPerMillisecond = length / duration;
-      progress.set((time * pxPerMillisecond) % length);
-    }
+    if (!length) return;
+    const pxPerMs = length / duration;
+    progress.set((time * pxPerMs) % length);
   });
 
   const x = useTransform(
     progress,
-    (val) => pathRef.current?.getPointAtLength(val).x
+    (v) => pathRef.current?.getPointAtLength(v).x
   );
   const y = useTransform(
     progress,
-    (val) => pathRef.current?.getPointAtLength(val).y
+    (v) => pathRef.current?.getPointAtLength(v).y
   );
-
   const transform = useMotionTemplate`translateX(${x}px) translateY(${y}px) translateX(-50%) translateY(-50%)`;
 
   return (
@@ -129,6 +131,7 @@ export const MovingBorder = ({
           left: 0,
           display: "inline-block",
           transform,
+          willChange: "transform, filter",
         }}
       >
         {children}
